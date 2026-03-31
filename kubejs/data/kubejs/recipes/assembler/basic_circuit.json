@@ -1,0 +1,36 @@
+{
+	"type": "custommachinery:custom_machine",
+	"machine": "custommachinery:assembler",
+	"time": 200,
+	"requirements": [
+		{
+			"type": "custommachinery:item",
+			"tag": "forge:plates/iron",
+			"amount": 1,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "minecraft:copper_ingot",
+			"amount": 4,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "minecraft:redstone",
+			"amount": 2,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:energy_per_tick",
+			"amount": 100,
+			"mode": "input"
+		},
+		{
+			"type": "custommachinery:item",
+			"item": "kubejs:basic_circuit",
+			"amount": 1,
+			"mode": "output"
+		}
+	]
+}
